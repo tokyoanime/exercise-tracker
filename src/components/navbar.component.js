@@ -8,8 +8,8 @@ export default class NavBar extends Component {
         <Link to='/' className='navbar-brand'>
           ExerciseTracker
         </Link>
-        <div className='collpase navbar-collapse'>
-          <ul className='nav-bar-nav mr-auto'>
+        <div className='collapse navbar-collapse'>
+          <ul className='navbar-nav mr-auto'>
             <li className='navbar-item'>
               <Link to='/' className='nav-link'>
                 Exercises
