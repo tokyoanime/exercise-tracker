@@ -48,8 +48,6 @@ export default class CreateExercise extends Component {
     };
 
     console.log(exercise);
-
-    window.location = '/';
   }
 
   render() {
@@ -103,8 +101,7 @@ export default class CreateExercise extends Component {
             <div>
               <DatePicker
                 selected={this.state.date}
-                onChange={this.handleChange}
-                name='date'
+                onChange={this.handleDateChange}
               />
             </div>
           </div>
